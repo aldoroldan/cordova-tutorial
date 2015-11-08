@@ -1,63 +1,63 @@
 ---
 layout: module
-title: Module 1&#58; Creating a Cordova Project
+title: Modulo 1&#58; Creando un Projecto en Cordova 
 ---
-## Steps
+## Pasos
 
-1. Make sure you have an up-to-date version of [Node.js](http://nodejs.org/) installed on your system.
+1. Asegurese que tiene una version actualizada de [Node.js](http://nodejs.org/) instalada en su sistema.
 
-1. Open Terminal (Mac) or a Command window (Windows), and type the following command to install the Cordova CLI:
+1. Abra una Terminal (Mac) o una Ventana de Comandos (Windows), y escribalo el siguiente comando para instalar Cordova CLI:
 
   ```
   npm install -g cordova
   ```
 
-  or on a Mac:
+  o en la Mac:
 
   ```
   sudo npm install -g cordova
   ```
 
-  If you already have Cordova installed on your computer, make sure you upgrade to the latest version:
+  Si ya tiene Cordova instalado en su computadora, asegurese de actualizar a la ultima version:
 
   ````
   npm update -g cordova
   ````
 
-  or
+  o
 
   ````
   sudo npm update -g cordova
   ````
 
-1. Navigate (cd) to a directory where you store projects on your file system.
+1. Desplacese (cd) al directorio donde almacena sus proyectos en el sistema de archivos.
 
-1. Using the Cordova CLI, create a Cordova project named **Workshop** in a directory named **workshop**:
+1. Usando el Cordova CLI, crear un projecto Cordova llamado **Workshop** en un directorio llamado **workshop**:
 
   ```
   cordova create workshop com.yourname.workshop Workshop
   ```
 
-1. Navigate to the project directory:
+1. Desplacese al directorio del proyecto:
 
   ```
   cd workshop
   ```
 
-1. Add support for the iOS platform (optional)
+1. Agregue soporte para la plataforma iOS (opcional)
 
     > To be able to build for the iOS platform, the iOS SDK must be installed on your system. If it's not, 
     you can skip this step and add support for another platform, or simply run the tutorial application in your 
     browser.
 
-    1. Make sure the iOS SDK is available on your system.
-    2. On the command line, make sure you are in the **workshop** directory and type:
+    1. Asegurese que el iOS SDK se encuentra disponible en su sistema.
+    2. En la linea de comandos, asegurese que esta en el directorio **workshop** y escriba:
 
         ```
         cordova platforms add ios
         ```
         
-1. Add support for the Android platform (optional)
+1. Agregue soporte para la plataforma Android (opcional)
     > To be able to build for the Android platform, the Android SDK must be installed on your system. If it's not, 
     you can skip this step and add support for another platform, or simply run the tutorial application in your browser.
     1. Make sure the Android SDK and the ant build tool are available on your system. The Android SDK is available 
