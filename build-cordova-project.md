@@ -1,39 +1,36 @@
 ---
 layout: module
-title: Module 2&#58; Building a Cordova Project
+title: Modulo 2&#58; Construyendo un Proyecto Cordova
 ---
 
-This module is optional. If you didn't add support for any platform in the previous module, you can skip this module 
-and go to [module 3](setup-files.html).
+Este modulo es opcional. Si no agrego soporte para ninguna plataforma en el modulo anterior, puede saltear este modulo e ir al [modu0e 3](setup-files.html).
 
-## Building for iOS
+## Construyendo para iOS
 
-> You need the iOS SDK installed on your computer to build an iOS version of your application 
-using the steps below.
+> Necesita tener instalado el iOS SDK en su computadora para construir la version iOS de la aplicacion usando los pasos de mas abajo.
 
-On the command line, make sure you are in the **workshop** directory and type:
+En la linea de comando, asegurese que esta en el directorio **workshop** y escriba:
 
 ```
 cordova build ios
 ```
 
-The project is built in the **workshop/platforms/ios** folder. Double-click **Workshop.xcodeproj** to open the project
- in Xcode, and run it in the emulator or on your device.
+El proyecto sera construido en la carpeta **workshop/platforms/ios**. Haga doble-click **Workshop.xcodeproj** para abrir el proyecto en Xcode, y ejecutarlo en el emulador o en su dispositivo.
 
-You can also run the application in the iOS emulator directly from the command line. First install [ios-sim]
+Puede tambien ejecutar la aplicacion en el emulador de IOS directamente desde la linea de comandos. Primero instale [ios-sim]
 (https://github.com/phonegap/ios-sim):
 
 ```
 npm install -g ios-sim
 ```
 
-or
+o
 
 ```
 sudo npm install -g ios-sim
 ```
 
-Then run the application in the iOS emulator:
+Luego ejecute la aplicacion en el emulador de iOS:
 
 ```
 cordova emulate ios
