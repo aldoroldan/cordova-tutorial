@@ -36,19 +36,17 @@ Luego ejecute la aplicacion en el emulador de iOS:
 cordova emulate ios
 ```
 
-##Building for Android
+##Construyendo para Android
 
-> You need the Android SDK installed on your computer to build an Android version of your 
-application using the steps below.
+> Necesita tener instalado el Android SDK en su computadora para construir la version Android de la aplicacion usando los pasos de mas abajo.
 
-To build the project in the **workshop/platforms/android** folder and run it on an Android device connected to your 
-computer using a USB cable, type:
+Para construir el proyecto en la carpeta **workshop/platforms/android** y ejecutarlo en un dispositivo Android conectado a su computadora usando un cable USB, escriba:
 
 ```
 cordova run android
 ```
 
-To build the project in the **workshop/platforms/android** folder and run it in the Android emulator, type:
+Para construir el proyecto en la carpeta **workshop/platforms/android** y ejecutarlo en un emulador de Android, escriba:
 
 ```
 cordova emulate android
@@ -57,8 +55,8 @@ cordova emulate android
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
 <a href="create-cordova-project.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
-Previous</a>
-<a href="setup-files.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+Anterior</a>
+<a href="setup-files.html" class="btn btn-default pull-right">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
 
