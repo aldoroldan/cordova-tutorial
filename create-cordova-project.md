@@ -6,7 +6,7 @@ title: Modulo 1&#58; Creando un Proyecto en Cordova
 
 1. Asegurese que tiene una version actualizada de [Node.js](http://nodejs.org/) instalada en su sistema.
 
-1. Abra una Terminal (Mac) o una Ventana de Comandos (Windows), y escribalo el siguiente comando para instalar Cordova CLI:
+1. Abra una Terminal (Mac) o una Ventana de Comandos (Windows), y escribalo el siguiente comando para instalar el CLI de Cordova:
 
   ```
   npm install -g cordova
